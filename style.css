@@ -1,36 +1,16 @@
-body {
-    margin: 0 auto;
-    padding: 0;
-    background:#f8f8f8;
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-.app {
+body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    text-align: center;
+    background:#f8f8f8;
 }
 
 /* navbar */
+
 nav {
     position: absolute;
-    top: 0;
-}
-
-a {
-    text-decoration: none;
-    margin: 0 35px 10px 35px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    /* color: #747472; */
-}
-
-.welcome-btn, Link, a {
-    text-decoration: none;
-    /* margin: 0 35px 10px 35px; */
-    letter-spacing: 2px;
-    font-weight: 400;
-    color: #747472;
 }
 
 ul {
@@ -41,14 +21,17 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-size: 16px; 
     font-weight: 400;
-    padding-top: 10px;
-    border: solid red 1px;
 }
 
 li {
     list-style: none;
-        /* border: solid red 1px; */
 
+}
+
+a {
+    margin: 0 35px 10px 35px;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 .main-nav {
@@ -75,32 +58,38 @@ li {
     height: 100vh;
     width: 100vw;
     align-items: center;
-    justify-content: center;
-    /* border: solid red 1px; */
 }
 
 .welcome {
     position: absolute;
-    top: 10%;
+    /* top: 10%; */
     width: 100%;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     font-size: 40px;
-    /* color: #404040; */
-    /* border: solid blue 1px; */
-
 }
 
 .greeting {
     text-transform: capitalize;
     font-family: 'Roboto', sans-serif;
-    padding-top: 80px;
     font-size: 180px;
     margin-bottom: 0;
-    /* border: solid blue 1px; */
+    margin-top: 0;
+}
 
+.greeting-content {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #595959;
+}
 
+.welcome, p {
+    font-size: 20px;
+    margin: 0;
+  
 }
 
 .welcome-btn {
@@ -108,35 +97,8 @@ li {
     text-transform: uppercase;
 }
 
-.welcome, p {
-    /* margin: 8px 0; */
-    /* font-weight: 900; */
-    font-size: 20px;
-    margin: 0;
-  
-}
-
-.author {
-    font-weight: 900;
-}
-
-.greeting-content {
-    text-align: center;
-    /* border: solid blue 1px; */
-    margin-top: 30px;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    color: #595959;
-    /* margin-left: 220px; */
-}
-
-.welcome, span {
-    margin: 15px 0;
-}
-
 .welcome-btn, a {
     text-decoration: none;
-    /* margin: 0 35px 10px 35px; */
     letter-spacing: 2px;
     font-weight: 400;
     color: #747472;
@@ -155,6 +117,3 @@ li {
     color: #fff;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Cinzel|Montserrat|Quicksand');
-
-@import url('https://fonts.googleapis.com/css?family=Antic|Didact+Gothic|Gothic+A1|Hind+Guntur|Inconsolata|Julius+Sans+One|Jura|Nanum+Gothic|Quicksand|Rubik|Telex');
