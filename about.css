@@ -67,4 +67,26 @@ p {
 .location {
     padding-bottom: 15px;
 }
+ 
+/* skills section  */
 
+.row {
+    display: flex;
+    width: 96%;
+}
+
+.column-one, .column-two, p {
+    width: 50%;
+    text-align: center;
+    padding-left: 80px;
+}
+
+.row p {
+    text-align: center;
+    width: 80%;
+}
+
+hr {
+    width: 80%;
+    padding-top: 5px;
+}
