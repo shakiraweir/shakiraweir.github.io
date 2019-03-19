@@ -107,14 +107,23 @@ a {
 
 .welcome-btn, a {
     text-decoration: none;
-    letter-spacing: 2px;
     font-weight: 400;
     color: #747472;
 }
 
+.logos {
+    margin: 25px 0;
+
+}
+
+.logo {
+    color: black;
+    margin: 0 15px;
+}
+
 .left, .right {
     border: solid black 1px;
-    margin: 0 25px;
+    margin: 25px;
     font-size: 22px;
     padding: 5px 25px;
 }
