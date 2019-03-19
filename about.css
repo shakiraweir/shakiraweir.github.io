@@ -25,9 +25,9 @@
     text-align: center;
 }
 
-p {
-    width: 65vw;
-    font-size: 24px;
+.description {
+    width: 50vw;
+    font-size: 28px;
 }
 
 .contact-info {
@@ -39,7 +39,7 @@ p {
     padding-right: 10px;
 }
 
-/* experience section  */
+/* experience and education section  */
 
 #education {
     display: flex;
@@ -55,17 +55,18 @@ p {
 }
 
 .job p {
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     width: 100%;
 }
 
 .job, p, .date, .location {
     text-align: center;
+    padding-top: 5px;
 
 }
 .location {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
  
 /* skills section  */
