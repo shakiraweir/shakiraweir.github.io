@@ -1,0 +1,70 @@
+.greeting-about {
+    font-family: 'Roboto', sans-serif;
+    font-size: 120px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.welcome.about {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    font-weight: 600;
+}
+
+.active {
+    border-bottom: solid #747472 1px;
+    padding-bottom: 1px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100vw;
+    text-align: center;
+}
+
+p {
+    width: 65vw;
+    font-size: 24px;
+}
+
+.contact-info {
+    margin-top: 40px;
+    border: sold yellow 1px;
+}
+
+.fa-file-alt, .fa-envelope {
+    padding-right: 10px;
+}
+
+/* experience section  */
+
+#education {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.far, .fas {
+    padding-right: 10px;
+}
+.location, .date {
+    color: rgb(51, 77, 77);
+}
+
+.job p {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.job, p, .date, .location {
+    text-align: center;
+
+}
+.location {
+    padding-bottom: 15px;
+}
+
